@@ -1,0 +1,80 @@
+[
+  {
+    "ContainingType": "CurrencyConvert.Controllers.CurrencyController",
+    "Method": "GetAllAvailableCurrenciesAsync",
+    "RelativePath": "Currency/GetExchangeRate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currencyCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurrencyConvert.Controllers.CurrencyController",
+    "Method": "GetExchangeRateForSpecificPeriod",
+    "RelativePath": "Currency/GetExchangeRateForSpecificPeriod",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "referenceDateFrom",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "referenceDateTo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "currency",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurrencyConvert.Controllers.CurrencyController",
+    "Method": "GetExchangeRates",
+    "RelativePath": "Currency/GetSpecificExchangeRate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromCurrencyCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toCurrencyCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
